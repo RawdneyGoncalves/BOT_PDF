@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10",
+    "download-pdf": "^0.1.6",
+    "fs": "^0.0.1-security"
+  },
+  "name": "botdiario",
+  "version": "1.0.0",
+  "description": "Bot para baixar PDFS",
+  "main": "bot.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rawdney Mendes",
+  "license": "ISC"
+}
