@@ -2,10 +2,6 @@ const axios = require('axios').default
 const cheerio = require('cheerio')
 const fs = require('fs')
 const download = require('download-pdf')
-
-
-//consumo API
-
 const url = 'https://www.spdo.ms.gov.br/diariodoe'
 
 function getDOE() {
@@ -31,12 +27,8 @@ function getDOE() {
           console.log('baixado')
         })
 
-      })
-
-
-      //console.log(link)
+       })
 
     })
 }
-
 getDOE()
